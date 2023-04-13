@@ -4,6 +4,7 @@ import Form from './Component/Form';
 import Home from './Component/Home';
 import Toggle from './Toggle';
 import UseEffect from './UseEffect/UseEffect';
+import DataFatch from './CastomHooks/DataFatch.jsx'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Home />
      <Toggle /> */}
      <UseEffect />
+     <DataFatch/>
     </div>
   );
 }
