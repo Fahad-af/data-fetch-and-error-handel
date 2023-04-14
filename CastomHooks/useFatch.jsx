@@ -1,7 +1,7 @@
 
 import React ,{useState ,useEffect} from 'react'
 
-const useFatch = ({url}) => {
+const useFatch = (url) => {
 
       const [data  ,setData] =useState()
       const [loading , isloading]= useState(true)
@@ -19,7 +19,6 @@ const useFatch = ({url}) => {
        })
        .then((data)=>{
         setData(data)
-        console.log(data)
         isloading(false)
         seterror(null)
        
